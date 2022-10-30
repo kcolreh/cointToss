@@ -13,4 +13,5 @@ header {
 
 .coin {
     height: 200px;
+    cursor: pointer;
 }
