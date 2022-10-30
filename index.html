@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <script src="./java.js" defer></script>
-        <link rel="stylesheet" href="./style.css">
-        <title>A game of chance</title>
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="./java.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>A game of chance</title>
+  </head>
+  <body>
     <header>
-        <h1>Coin-Toss</h1>
+      <h1>Coin-Toss</h1>
     </header>
     <div class="content">
-        <h2>Good luck!</h2>
-        <img class="coin" src="./img/coin-gd90f4f902_640.jpg" alt="A picture of a coin">
-        <p id="result">result</p>
+      <div class="score">
+        <h2>Coins-></h2>
+        <span id="counter-coin" class="counter">0</span>
+        <span id="counter-tail" class="counter">0</span>
+        <h2><-Tails</h2>
+      </div>
+      <img class="coin" src="./img/coin-gd90f4f902_640.jpg" alt="A picture of a coin"/>
+      <p id="result">result</p>
     </div>
     <footer></footer>
-</body>
+  </body>
 </html>

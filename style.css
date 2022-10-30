@@ -1,17 +1,49 @@
 header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(222, 203, 108);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 100px;
+}
+
+h2 {
+  color: rgb(222, 203, 108);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#counter-coin {
+  color: blue;
+  font-size: 55px;
+}
+
+#counter-tail {
+  color: red;
+  font-size: 55px;
+}
+
+#result {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  color: rgb(222, 203, 108);
+}
+
+.score {
+  display: flex;
+  gap: 50px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
 }
 
 .coin {
-    height: 200px;
-    cursor: pointer;
+  height: 400px;
+  cursor: pointer;
 }
